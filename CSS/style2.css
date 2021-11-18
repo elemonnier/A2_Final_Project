@@ -1,0 +1,162 @@
+
+body{
+    background-color: inherit;
+}
+
+
+#top_side{
+    background-color: #d6d5dd;
+
+}
+
+#accueil:hover{
+    color: dodgerblue;
+}
+
+#about_us:hover{
+    color: dodgerblue;
+}
+
+#flight_res:hover{
+    color: dodgerblue;
+}
+
+#my-flight_res:hover{
+    color: dodgerblue;
+
+}
+
+
+#title{
+    font-size: 350%;
+}
+
+#text{
+    font-size: 150%;
+}
+
+
+#avion_deco{
+    width: 97%;
+}
+
+#video{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact{
+    border: solid #d6d5dd 1px;
+}
+
+#recup_form{
+    width: 50%;
+    margin-left: 25%    ;
+}
+
+#global{
+    background-color: #d6d5dd;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+
+#global1{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#titre_h3{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#map{
+    height:400px;
+    width: 70%;
+    margin-left: 15%;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+
+.ui-datepicker tr > a{
+    width: 150%;
+}
+.ui-datepicker td > *:after {
+    content: attr(data-content);
+    background-color: yellow;
+}
+
+/* to target only allowed date cells */
+.ui-datepicker td > a:after {
+
+
+
+}
+
+/* to target only disabled date cells */
+.ui-datepicker td > span:after {
+
+
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    text-shadow: 1px 1px 0px #fff;
+    filter: dropshadow(color=#fff, offx=1, offy=1);
+}
+.ui-datepicker-calendar .ui-state-default {
+    background: #ededed;
+    background: -moz-linear-gradient(top,  #ededed 0%, #dedede 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#dedede));
+    background: -webkit-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: -o-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: -ms-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: linear-gradient(top,  #ededed 0%,#dedede 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+    -webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    -moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+}
+.ui-datepicker-unselectable .ui-state-default {
+    background: #f4f4f4;
+    color: #b4b3b3;
+}
+
+#my_ticket{
+    background-image: url("../img/ticket.png");
+    font-family: "Times New Roman", serif;
+
+}
+
+#foo{
+    width: 31%;
+}
+
+#centre_myf{
+    width: 70%;
+    margin-left: 15%;
+}
+
+#booking2 {
+    font-family: 'Lato', sans-serif;
+    background-image: url('../img/background4.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #191a1e;
+    width: 80%;
+    margin-left: 10%;
+    border: solid black 1px;
+}
+
+#fondmf{
+    background-image: url('../img/background4.jpg');
+    border: solid black 1px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
